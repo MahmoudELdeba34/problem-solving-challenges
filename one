@@ -1,0 +1,3 @@
+// q1) 1- Write a program that allow to user enter number then print it
+var num=Number(window.prompt("please enter any number"));
+document.write("The number you enterd is :" + num);
