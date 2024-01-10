@@ -1,0 +1,9 @@
+//q2) Write a program that take number from user then print yes if that number can divide by 3  and 4 otherwise print no
+
+var num1=Number(window.prompt("please enter number one")) ;
+var num2=Number(window.prompt("please enter number two")) ;
+if(num1%3==0&&num2%4==0){
+    document.write("the result is ====> Yes");
+}else{
+    document.write("the result is ====> No");
+}
